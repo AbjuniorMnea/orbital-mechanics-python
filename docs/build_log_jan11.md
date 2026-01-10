@@ -87,7 +87,6 @@
 ✅ Complete orbital mechanics demonstration portfolio
 ✅ 3 working Python scripts
 ✅ Visual proof of capabilities
-✅ Ready for MSc application
 ```
 
 ---
