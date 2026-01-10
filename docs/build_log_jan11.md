@@ -49,3 +49,46 @@
 
 ### Screenshots:
 ![alt text](<Parsing TLE from iss_tle.png>)
+
+## Afternoon Session (Part 2): Ground Track Visualization
+
+### What I Built:
+- ✅ Ground Track Visualization Script (`src/ground_track_viz.py`)
+- ✅ Generated 2 professional visualizations:
+  - `iss_ground_track.png` - 6 hours continuous tracking
+  - `iss_multiple_orbits.png` - 3 color-coded orbits
+
+### What I Learned:
+- **Data Visualization:** Using matplotlib to create publication-quality plots
+- **Ground Tracks:** Visual representation of satellite path over Earth
+- **Coordinate Plotting:** Handling lat/lon data on 2D maps
+- **Antimeridian Problem:** Breaking lines at ±180° to avoid visual artifacts
+- **ISS Orbital Characteristics:**
+  - Inclination: 51.6° (visible in plot reaching ±50° latitude)
+  - Westward shift: Earth rotation during orbit (visible between passes)
+  - Coverage area: Between 51.6°N and 51.6°S
+
+### Technical Challenges:
+- **Discontinuity Handling:** Crossing ±180° longitude creates visual artifact
+- **Solution:** Detect large longitude jumps, break line segments
+- **Map Aesthetics:** Added land masses, equator, tropics for reference
+- **Direction Arrows:** Show orbital motion direction for clarity
+
+### Output:
+- Two high-resolution PNG images (150 DPI)
+- Professional appearance ready for portfolio/application
+- Clear demonstration of ISS orbital mechanics
+
+### Screenshots:
+![alt text](../outputs/iss_ground_track.png)
+![alt text](../outputs/iss_multiple_orbits.png)
+
+### Result:
+✅ Complete orbital mechanics demonstration portfolio
+✅ 3 working Python scripts
+✅ Visual proof of capabilities
+✅ Ready for MSc application
+```
+
+---
+
