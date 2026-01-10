@@ -48,5 +48,4 @@
 - CSV file: `outputs/propagation_results.txt` (for plotting/analysis)
 
 ### Screenshots:
-![alt text](image.png)
-
+![alt text](<Parsing TLE from iss_tle.png>)
